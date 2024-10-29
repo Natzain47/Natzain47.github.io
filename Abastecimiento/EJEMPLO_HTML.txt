@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+     integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
+     crossorigin=""/>
+    <link rel="stylesheet" type="text/css" href="Leaflet-MiniMap-master/dist/Control.MiniMap.min.css">
+    <link rel="stylesheet" type="text/css" href="NOMBREMAPA.css">
+    
+
+    <title>Abastecimiento de Agua</title>
+    <h1 style="background-color: rgb(84, 3, 3);">Abastecimiento de Agua en la<br>Ciudad de México (CDMX) </h1>
+
+<select name="Seleccionar" id="Seleccionar" >
+    <option value="-1">Seleccionar una alcaldía</option>
+    <option value="19.389447386176236, -99.19509337858388">Álvaro Obregón</option>
+    <option value="">Azcapotzalco</option>
+    <option value="">Benito Juárez</option>
+    <option value="">Cuajimalpa de Morelos</option>
+    <option value="">Coyoacán</option>
+    <option value="">Cuauhtémoc</option>
+    <option value="19.483044988697, -99.11360318659932">Gustavo A. Madero</option>
+    <option value="">Iztacalco</option>
+    <option value="">Iztapala</option>
+    <option value="">La Magdalena Contreras</option>
+    <option value="">Miguel Hidalgo</option>
+    <option value="">Milpa Alta</option>
+    <option value="">Tláhuac</option>
+    <option value="">Tlalpan</option>
+    <option value="">Venustiano Carranza</option>
+    <option value="">Xochimilco</option>
+</select>
+    
+        
+</head>
+<body>
+    <div id="map"></div>
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+     integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
+     crossorigin=""></script>
+     <script src="Leaflet-MiniMap-master/dist/Control.MiniMap.min.js"></script>
+     <script src="IMM.js"></script>
+     <script src="marginacion.js"></script>
+</body>
+</html>
